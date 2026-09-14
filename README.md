@@ -84,3 +84,27 @@ Gnasher Group will create a computer vision application that analyzes an uploade
 
 \- \*\*Estimated Cost:\*\* $0.00
 
+
+
+\# Data Source \& Acquisition Plan
+
+
+
+\- \*\*Primary Source:\*\* Stanford Dogs Dataset — a public dataset containing images of 120 dog breeds. The breed labels will be mapped into the seven AKC groups: Sporting, Hound, Working, Terrier, Toy, Non-Sporting, and Herding.
+
+
+
+\- \*\*Dataset Link:\*\* http://vision.stanford.edu/aditya86/ImageNetDogs/
+
+
+
+\- \*\*Directory Layout:\*\*
+
+&#x20; ```text
+
+&#x20; data/
+
+&#x20; ├── raw/       # Original dog images from the dataset
+
+&#x20; └── processed/ # Resized, organized, and labeled images for the seven AKC groups
+
