@@ -108,3 +108,5 @@ Gnasher Group will create a computer vision application that analyzes an uploade
 
 &#x20; └── processed/ # Resized, organized, and labeled images for the seven AKC groups
 
+\*\*License / Compliance Note:\*\* The Stanford Dogs Dataset will be used for educational and academic purposes. The project will follow the dataset's stated usage terms and properly acknowledge the original dataset source.
+
