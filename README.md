@@ -1,85 +1,104 @@
 # Gnasher Group
 
-**Team Members:** Irene Ramos
+**Student:** Irene Ramos  
+**Course:** ITAI 1378  
+**Tier:** 1 — pretrained image-classification prototype
 
-**Tier Selection:** Tier 1 — Tier 1 fits the scope because the project uses one pretrained computer vision model for a single image-classification task.
+## Problem and implemented solution
 
-## Problem Statement
+Gnasher Group uses a dog photograph to suggest one of seven AKC groups:
+Sporting, Hound, Working, Terrier, Toy, Non-Sporting, and Herding.
 
-Many people have difficulty identifying their dog's breed group, especially when breeds have similar physical features, such as French Bulldogs and Pugs. This can make it harder for pet owners, adopters, veterinary professionals, and shelter professionals to understand a dog's general characteristics and needs.
+The notebook uses pretrained ImageNet EfficientNet-B0. A mapping module
+sums supported breed scores into AKC group scores while preserving
+unsupported-dog and non-dog scores separately.
 
-## Solution Overview
+If the highest group score is below 50%, the final decision is
+“Uncertain.” Group scores are not calibrated guarantees of correctness.
+The system does not reliably detect cats or identify mixed-breed ancestry.
 
-Gnasher Group will create an AI-powered computer vision application that analyzes a single uploaded dog photograph and predicts which of the seven AKC breed groups the dog belongs to. The application will return the predicted AKC breed group along with a confidence score.
+**Flow:** photograph → preprocessing → EfficientNet-B0 →
+breed-to-group aggregation → suggested group or Uncertain
 
-**Flow:** `Dog photograph` → `Image preparation` → `EfficientNet-B0 model` → `AKC breed group + confidence score`
+## Run in Google Colab
 
-## Technical Approach
+1. Download Gnasher_Group_Final.ipynb and gnasher_group_mapping.py
+   from this repository.
+2. Upload the notebook to Google Colab.
+3. Upload the mapping file and your test photograph through Colab’s
+   Files sidebar into /content.
+4. Set image_path to the photograph’s exact path.
+5. Set expected_group from the known breed before testing.
+6. Run the cells in order.
 
-- **CV Technique:** Image Classification
-- **Model:** EfficientNet-B0
-- **Framework:** PyTorch / Torchvision
-- **Environment:** Google Colab
+The first model load downloads pretrained weights and needs internet
+access. The current implementation runs on CPU.
 
-**Why:** EfficientNet-B0 is an efficient, lightweight image-classification model that supports transfer learning using pretrained ImageNet weights. Its relatively small size makes it appropriate for this Tier 1 project and practical for training and testing with free Google Colab GPU resources.
+The saved notebook displays the Border Collie example and the results
+recorded during the original session. A fresh runtime starts a new
+results dictionary; it does not automatically reload previous CSV rows.
 
-## Data Plan
+## Files
 
-- **Source:** Stanford Dogs Dataset
-- **Full Dataset Size:** 20,580 dog images from 120 breeds
-- **Planned Subset:** Approximately 7,000 balanced images, with a maximum of about 1,000 images per AKC group
-- **Labels:** Sporting, Hound, Working, Terrier, Toy, Non-Sporting, and Herding
-- **Data Split:** 70% training, 15% validation, and 15% testing
-- **Dataset Link:** http://vision.stanford.edu/aditya86/ImageNetDogs/
+- Gnasher_Group_Final.ipynb — implementation, saved outputs,
+  reflections, photograph sources, and limitations
+- gnasher_group_mapping.py — breed-to-group mapping and score aggregation
+- gnasher_test_results.csv — eight recorded photograph results
+- requirements.txt — required Python packages
+- docs/AI_usage_log.md — AI assistance and student testing log
+- docs/proposal.pdf — original blueprint
 
-The original breed labels will be mapped into the seven AKC breed groups for classification.
+## Measured results
 
-## Success Metrics
+Seven dog photographs, one representing each group, and one cat
+photograph were tested.
 
-- **Primary:** Achieve at least 85% classification accuracy on unseen test images.
-- **Secondary:** Maintain an average prediction time of under 1 second per image using a Google Colab GPU.
-- **Evaluation:** Use a confusion matrix and review 3–5 incorrect predictions to identify common failure cases.
+- Correct final dog-group predictions: 6 of 7 (85.7%).
+- Dog abstentions: 1 of 7, the husky.
+- Cat outcome: Uncertain; this was not a cat classification.
+- Average CPU model forward pass: 0.0991 seconds over 30 measured
+  runs after five warm-up runs.
+- Timing excludes image loading, preprocessing, and group mapping.
 
-## Milestone Plan
+The husky’s leading supported group was Working at 20.3%.
+Most of its score went to the unsupported ImageNet label “Eskimo dog,”
+so the system returned Uncertain.
 
-| Phase | Goal | Target Timeline |
-| :--- | :--- | :--- |
-| 🧭 Blueprint | Proposal submission and repository creation | Week 10 |
-| 🔌 First Working Demo | Run pretrained model on sample dog photographs | Week 11 |
-| 🛠 Make It Yours | Prepare labels, train model, and add prediction logic | Weeks 12–13 |
-| 📈 Improve and Measure | Test accuracy, prediction speed, and failure cases | Week 14 |
-| 🎥 Package and Present | Complete final demo, README, video, and presentation slides | Week 15 |
+## Changes from the blueprint
 
-## Risks and Plan B
+The blueprint proposed Stanford Dogs fine-tuning, approximately
+7,000 images, and a 70/15/15 training/validation/testing split.
 
-1. **Risk:** Similar-looking breeds may confuse the model.  
-   **Plan B:** Show the top two predictions and provide an alert when model confidence is low.
+The implemented prototype instead uses pretrained EfficientNet-B0
+without additional training, followed by breed-to-group mapping.
+The proposed dataset preparation and training split were not implemented.
 
-2. **Risk:** Class imbalance may negatively affect classification accuracy.  
-   **Plan B:** Use dataset balancing, class weights, and image augmentation to improve model performance.
+## Limitations and target comparison
 
-## Compute & Estimated Cost
+These are eight hand-picked demonstration photographs, not a large
+independent benchmark. Poppy and Goober were used during development
+of the 50% threshold. Possible overlap between internet photographs
+and model pretraining data is unknown. Internet-photo breed labels
+were not independently verified.
 
-- **Environment:** Google Colab GPU
-- **Framework:** PyTorch / Torchvision
-- **Dataset:** Stanford Dogs Dataset
-- **Project Tools:** GitHub and Google Drive
-- **Estimated Cost:** $0
+The original 85% unseen-image accuracy target is therefore not
+established. CPU forward-pass timing was below one second, but GPU
+performance and total application response time were not measured.
 
-## Data Source & Acquisition Plan
+Future work includes a larger held-out evaluation, threshold validation,
+mixed-breed and non-dog testing, and fine-tuning a seven-group classifier.
 
-The project will use the **Stanford Dogs Dataset**, which contains 20,580 images representing 120 dog breeds. The original breed labels will be mapped into the seven AKC breed groups: Sporting, Hound, Working, Terrier, Toy, Non-Sporting, and Herding.
+## Demonstration and presentation
 
-A balanced subset of approximately 7,000 images will be used, with a maximum of about 1,000 images per group. The dataset will be divided into 70% training, 15% validation, and 15% testing data.
+The narrated demonstration video and final presentation will be linked
+here after they are completed.
 
-**Dataset Link:** http://vision.stanford.edu/aditya86/ImageNetDogs/
+## Sources and AI assistance
 
-### Directory Layout
+Photograph sources and technical references are documented in the
+notebook. Internet photographs remain subject to their owners’ rights.
 
-```text
-data/
-├── raw/       # Original dog images from the dataset
-└── processed/ # Images organized and labeled into the seven AKC groups
-```
-
-**License / Compliance Note:** The Stanford Dogs Dataset will be used for educational and academic purposes. The project will follow the dataset's stated usage terms and properly acknowledge the original dataset source.
+ChatGPT helped generate starter code, the mapping module, debugging
+guidance, and documentation drafts. I ran the notebook, selected and
+tested photographs, recorded outputs, and edited the project.
+See docs/AI_usage_log.md for details.
