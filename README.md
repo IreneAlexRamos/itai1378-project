@@ -22,7 +22,7 @@ breed-to-group aggregation → suggested group or Uncertain
 
 ## Run in Google Colab
 
-1. Download Gnasher_Group_Final.ipynb and gnasher_group_mapping.py
+1. Download notebooks/Gnasher_Group_Final.ipynb and gnasher_group_mapping.py
    from this repository.
 2. Upload the notebook to Google Colab.
 3. Upload the mapping file and your test photograph through Colab’s
@@ -40,7 +40,7 @@ results dictionary; it does not automatically reload previous CSV rows.
 
 ## Files
 
-- Gnasher_Group_Final.ipynb — implementation, saved outputs,
+- notebooks/Gnasher_Group_Final.ipynb — implementation, saved outputs,
   reflections, photograph sources, and limitations
 - gnasher_group_mapping.py — breed-to-group mapping and score aggregation
 - results/gnasher_test_results.csv — eight recorded photograph results
