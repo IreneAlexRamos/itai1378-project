@@ -1,106 +1,40 @@
-\# Gnasher Group Data Plan
+# Gnasher Group — Demonstration Data
 
+## Photographs used
 
+The implemented prototype was tested on eight photographs:
+seven dogs, one representing each AKC group, and one cat.
 
-\## Dataset
+Poppy and Goober are personal photographs. The other six
+photographs came from internet sources listed in the notebook.
+Internet-photo breed labels were not independently verified.
 
+## Evaluation limitations
 
+Poppy and Goober were used during development of the 50% threshold.
 
-\*\*Dataset:\*\* Stanford Dogs Dataset
+These photographs are a small, hand-picked convenience sample,
+not an independent benchmark. Possible overlap between internet
+photographs and the model's pretraining data is unknown.
 
+## Changes from the original plan
 
+No Stanford Dogs training subset or 70/15/15 split was created.
+The implemented system uses pretrained ImageNet EfficientNet-B0
+without additional training.
 
-\*\*Source:\*\* Stanford University
+The original training plan is retained in docs/proposal.pdf.
 
+## Results and sources
 
+- Recorded results: results/gnasher_test_results.csv
+- Photograph sources and limitations:
+  notebooks/Gnasher_Group_Final.ipynb
 
-\*\*Dataset Link:\*\* http://vision.stanford.edu/aditya86/ImageNetDogs/
+Internet photographs remain subject to their owners' rights.
 
+## Testing another photograph
 
-
-The Stanford Dogs Dataset contains \*\*20,580 dog images representing 120 breeds\*\*. The original breed labels will be mapped into the seven American Kennel Club (AKC) breed groups for this project.
-
-
-
-\## Classification Labels
-
-
-
-The model will classify dog images into the following seven AKC breed groups:
-
-
-
-\- Sporting
-
-\- Hound
-
-\- Working
-
-\- Terrier
-
-\- Toy
-
-\- Non-Sporting
-
-\- Herding
-
-
-
-\## Planned Dataset Size
-
-
-
-The full Stanford Dogs Dataset contains 20,580 images. For this project, approximately \*\*7,000 balanced images\*\* will be used, with a maximum of about \*\*1,000 images per AKC group\*\*.
-
-
-
-This smaller balanced dataset will help reduce class imbalance while keeping training practical using the free Google Colab GPU environment.
-
-
-
-\## Data Split
-
-
-
-The dataset will be divided into:
-
-
-
-\- \*\*70% Training\*\*
-
-\- \*\*15% Validation\*\*
-
-\- \*\*15% Testing\*\*
-
-
-
-\## Data Organization
-
-
-
-```text
-
-data/
-
-├── raw/       # Original dog images from the Stanford Dogs Dataset
-
-└── processed/ # Images organized and labeled into the seven AKC groups
-
-```
-
-
-
-\## Data Preparation
-
-
-
-The original Stanford Dogs breed labels will be mapped to their corresponding AKC breed groups. Images will then be prepared for use with the EfficientNet-B0 image-classification model using PyTorch and Torchvision.
-
-
-
-\## License / Compliance
-
-
-
-The Stanford Dogs Dataset will be used for educational and academic purposes. The project will follow the dataset's stated usage terms and properly acknowledge the original dataset source.
-
+Upload your photograph and gnasher_group_mapping.py to Colab's
+/content folder. Set image_path to the photograph's exact path,
+then run the prediction, mapping, and decision cells.
