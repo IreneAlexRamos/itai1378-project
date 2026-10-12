@@ -43,7 +43,7 @@ results dictionary; it does not automatically reload previous CSV rows.
 - Gnasher_Group_Final.ipynb — implementation, saved outputs,
   reflections, photograph sources, and limitations
 - gnasher_group_mapping.py — breed-to-group mapping and score aggregation
-- gnasher_test_results.csv — eight recorded photograph results
+- results/gnasher_test_results.csv — eight recorded photograph results
 - requirements.txt — required Python packages
 - docs/AI_usage_log.md — AI assistance and student testing log
 - docs/proposal.pdf — original blueprint
