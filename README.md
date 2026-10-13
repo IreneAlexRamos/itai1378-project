@@ -9,7 +9,7 @@
 | Stage | Implementation | Evidence/status |
 |---|---|---|
 | Version 1 — preserved prototype | Pretrained 1,000-label EfficientNet-B0 plus breed-to-group mapping | Working notebook and eight saved demonstration results |
-| Version 2 — final training workflow | Reviewed Stanford Dogs labels; seven-output head training; partial feature fine-tuning | Code prepared; student label review, GPU training, and real evaluation still pending |
+| Version 2 — final training workflow | Reviewed Stanford Dogs labels; seven-output head training; partial feature fine-tuning | Training notebook updated and saved from Colab on October 13; inspect saved outputs for actual measured results. Reviewed labels and final evaluation evidence need separate confirmation |
 
 The Version 1 snapshot is in [prototypes/v1/](prototypes/v1/README.md).
 Existing prototype links remain available. Version 2 is a separate notebook:
@@ -18,11 +18,12 @@ Existing prototype links remain available. Version 2 is a separate notebook:
 [Open Version 2 in Colab](https://colab.research.google.com/github/IreneAlexRamos/itai1378-project/blob/main/notebooks/Gnasher_Group_Training.ipynb).
 
 The final workflow restores the original training direction while keeping the
-prototype as evidence of progression. It creates a reviewed label table,
+prototype as evidence of progression. It supports a reviewed label table,
 a capped custom 70/15/15 split, validation-selected weights and threshold,
 learning curves, paired V1/V2 test predictions, confusion matrices, and
-device-labeled timing. **These are outputs the workflow will generate, not
-results already achieved.**
+device-labeled timing. The Version 2 notebook was saved from Colab on October 13,
+2026. **Notebook code and saved outputs must be checked before describing a
+particular metric as a validated final result.**
 
 See [docs/final_training_plan.md](docs/final_training_plan.md) for the steps,
 review responsibilities, experiment limits, and submission evidence.
@@ -143,14 +144,37 @@ The husky’s leading supported group was Working at 20.3%.
 Most of its score went to the unsupported ImageNet label “Eskimo dog,”
 so the system returned Uncertain.
 
+## Version 2 progress and evidence checklist
+
+The Version 2 notebook has been saved to GitHub from Google Colab. The October 13,
+2026 commits confirm that the updated notebook was uploaded, but they do not by
+themselves verify that every training, testing, or image-evidence artifact was
+published. This checklist separates implemented workflow from submission evidence:
+
+- [x] Preserve Version 1 and its original demonstration results.
+- [x] Add the separate Version 2 Stanford Dogs training notebook.
+- [x] Save the updated Version 2 notebook from Colab to GitHub.
+- [ ] Confirm the reviewed Stanford Dogs breed-to-group table and its provenance.
+- [ ] Record the actual final run's training/validation and held-out test metrics,
+      distinguishing validation accuracy from test accuracy.
+- [ ] Confirm that paired Version 1/Version 2 test comparison, confusion matrix,
+      failure examples, and timing are included with their actual outputs.
+- [ ] Add the authorized Titus example photograph, its expected group, and its
+      actual prediction if appropriate; no Titus image upload is yet confirmed.
+- [ ] Link the finished narration, demonstration, and final slides.
+
+Do not interpret the original 6/7 demonstration result as final test accuracy.
+See [final training plan](docs/final_training_plan.md) for the reproducible workflow.
+
 ## Changes from the blueprint
 
 The blueprint proposed Stanford Dogs fine-tuning, approximately
 7,000 images, and a 70/15/15 training/validation/testing split.
 
-The implemented prototype instead uses pretrained EfficientNet-B0
-without additional training, followed by breed-to-group mapping.
-The proposed dataset preparation and training split were not implemented.
+Version 1 uses pretrained EfficientNet-B0 without additional training, followed
+by breed-to-group mapping. Version 2 adds a separate Stanford Dogs dataset and
+fine-tuning workflow. Refer to Version 2's saved run artifacts for actual
+training and evaluation outcomes; the prototype itself was not fine-tuned.
 
 ## Limitations and target comparison
 
@@ -164,8 +188,10 @@ The original 85% unseen-image accuracy target is therefore not
 established. CPU forward-pass timing was below one second, but GPU
 performance and total application response time were not measured.
 
-Future work includes a larger held-out evaluation, threshold validation,
-mixed-breed and non-dog testing, and fine-tuning a seven-group classifier.
+Version 2 introduces seven-group fine-tuning and evaluation code. Final
+held-out metrics and reports must be verified from the saved run before claiming
+the original success targets were achieved. Further external evaluation on
+mixed breeds and non-dogs remains useful.
 
 ## Demonstration and presentation
 
