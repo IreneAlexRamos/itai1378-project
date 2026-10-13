@@ -35,41 +35,93 @@ def write_csv(path, rows, fields):
         writer.writerows(rows)
 
 
+def extract_images_streaming(archive, root):
+    """Extract one regular image at a time with a bounded copy buffer."""
+    import shutil
+    from pathlib import PurePosixPath
+    root = Path(root)
+    count = 0
+    print('Extracting photographs...', flush=True)
+    with tarfile.open(archive, mode='r|*') as tar:
+        for member in tar:
+            try:
+                parts = PurePosixPath(member.name).parts
+                if member.isdir():
+                    continue
+                if (not member.isfile() or len(parts) != 3 or parts[0] != 'Images'
+                    or '..' in parts or not parts[2].lower().endswith('.jpg')):
+                    raise ValueError(f'Unexpected archive member: {member.name}')
+                target = root.joinpath(*parts)
+                target.parent.mkdir(parents=True, exist_ok=True)
+                # Complete files from an interrupted extraction can be reused.
+                if not target.exists() or target.stat().st_size != member.size:
+                    partial = target.with_suffix(target.suffix + '.partial')
+                    with tar.extractfile(member) as source, partial.open('wb') as output:
+                        shutil.copyfileobj(source, output, length=1024 * 1024)
+                    partial.replace(target)
+                count += 1
+                if count % 1000 == 0:
+                    print(f'Extracted {count:,} photographs', flush=True)
+            finally:
+                # Older Python versions retain every TarInfo even in stream mode.
+                tar.members.clear()
+    print(f'Extraction finished: {count:,} photographs', flush=True)
+    return count
+
+
 def download_dataset(root):
-    """Download original images; accept an already uploaded images.tar."""
+    """Download in chunks, then extract images with bounded memory."""
+    import shutil
     root = Path(root)
     root.mkdir(parents=True, exist_ok=True)
     images = root / 'Images'
-    if images.is_dir() and len(list(images.glob('*/*.jpg'))) == 20580:
+    image_count = sum(1 for _ in images.glob('*/*.jpg')) if images.is_dir() else 0
+    if image_count == 20580 and sum(p.is_dir() for p in images.iterdir()) == 120:
+        print('Reusing the complete Stanford Dogs dataset.', flush=True)
         return images
+    available = shutil.disk_usage(root).free / (1024 ** 3)
+    print(f'Free disk space: {available:.1f} GiB', flush=True)
+    if available < 3:
+        raise RuntimeError('Less than 3 GiB of free disk space. Use a fresh Colab runtime or free space.')
     archive = root / 'images.tar'
     if not archive.exists():
         errors = []
         for base in [DATASET_URL.replace('http:', 'https:'), DATASET_URL]:
             partial = root / 'images.tar.partial'
             try:
-                with urlopen(base + 'images.tar', timeout=120) as response, partial.open('wb') as output:
+                print('Downloading images.tar from ' + base, flush=True)
+                with urlopen(base + 'images.tar', timeout=60) as response, partial.open('wb') as output:
+                    downloaded, next_report = 0, 64 * 1024 * 1024
+                    expected_size = response.headers.get('Content-Length')
                     while True:
                         chunk = response.read(1024 * 1024)
                         if not chunk:
                             break
                         output.write(chunk)
+                        downloaded += len(chunk)
+                        if downloaded >= next_report:
+                            print(f'Downloaded {downloaded / (1024 ** 2):.0f} MiB', flush=True)
+                            next_report += 64 * 1024 * 1024
+                    if expected_size and downloaded != int(expected_size):
+                        raise RuntimeError('Incomplete archive download; retry the cell.')
                 partial.replace(archive)
+                print('Download complete.', flush=True)
                 break
             except Exception as exc:
                 errors.append(str(exc))
                 partial.unlink(missing_ok=True)
+                print('Download attempt failed: ' + str(exc), flush=True)
         else:
             raise RuntimeError('Stanford download failed. Download images.tar from the official '
                                'dataset page and upload it to this folder. Details: ' + '; '.join(errors))
-    # Colab supports the safe data filter; reject links and path traversal.
-    with tarfile.open(archive) as tar:
-        tar.extractall(root, filter='data')
-    folders = [p for p in images.iterdir() if p.is_dir()]
-    if len(folders) != 120 or len(list(images.glob('*/*.jpg'))) != 20580:
+    else:
+        print('Reusing downloaded images.tar.', flush=True)
+    extract_images_streaming(archive, root)
+    folder_count = sum(p.is_dir() for p in images.iterdir()) if images.is_dir() else 0
+    image_count = sum(1 for _ in images.glob('*/*.jpg')) if images.is_dir() else 0
+    if folder_count != 120 or image_count != 20580:
         raise ValueError('Expected 120 Stanford Dogs folders and 20,580 JPGs. Check the archive.')
     return images
-
 
 def normalize(name):
     return re.sub(r'[^a-z0-9]+', ' ', name.lower()).strip()
