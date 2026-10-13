@@ -2,9 +2,35 @@
 
 **Student:** Irene Ramos  
 **Course:** ITAI 1378  
-**Tier:** 1 — pretrained image-classification prototype
+**Tier:** 1 — one dog-group image-classification task
 
-## Problem and implemented solution
+## Project progression
+
+| Stage | Implementation | Evidence/status |
+|---|---|---|
+| Version 1 — preserved prototype | Pretrained 1,000-label EfficientNet-B0 plus breed-to-group mapping | Working notebook and eight saved demonstration results |
+| Version 2 — final training workflow | Reviewed Stanford Dogs labels; seven-output head training; partial feature fine-tuning | Code prepared; student label review, GPU training, and real evaluation still pending |
+
+The Version 1 snapshot is in [prototypes/v1/](prototypes/v1/README.md).
+Existing prototype links remain available. Version 2 is a separate notebook:
+[notebooks/Gnasher_Group_Training.ipynb](notebooks/Gnasher_Group_Training.ipynb).
+
+[Open Version 2 in Colab](https://colab.research.google.com/github/IreneAlexRamos/itai1378-project/blob/main/notebooks/Gnasher_Group_Training.ipynb).
+
+The final workflow restores the original training direction while keeping the
+prototype as evidence of progression. It creates a reviewed label table,
+a capped custom 70/15/15 split, validation-selected weights and threshold,
+learning curves, paired V1/V2 test predictions, confusion matrices, and
+device-labeled timing. **These are outputs the workflow will generate, not
+results already achieved.**
+
+See [docs/final_training_plan.md](docs/final_training_plan.md) for the steps,
+review responsibilities, experiment limits, and submission evidence.
+Stanford Dogs is sourced from ImageNet: its custom test split is held out
+from this project's fine-tuning, not verified as unseen during pretraining.
+The old eight-photo rate must not be compared directly with a larger test rate.
+
+## Version 1 — problem and implemented solution
 
 Gnasher Group uses a dog photograph to suggest one of seven AKC groups:
 Sporting, Hound, Working, Terrier, Toy, Non-Sporting, and Herding.
@@ -72,7 +98,7 @@ That export is not a completed Stanford Dogs labeling table or evidence of
 independent human review. See [data/README.md](data/README.md) for aliases,
 exceptions, sources, and remaining labeling work.
 
-## Run in Google Colab
+## Run Version 1 in Google Colab
 
 1. Download notebooks/Gnasher_Group_Final.ipynb and gnasher_group_mapping.py
    from this repository.
@@ -101,7 +127,7 @@ results dictionary; it does not automatically reload previous CSV rows.
 - docs/AI_usage_log.md — AI assistance and student testing log
 - docs/proposal.pdf — original blueprint
 
-## Measured results
+## Version 1 measured results
 
 Seven dog photographs, one representing each group, and one cat
 photograph were tested.
@@ -155,3 +181,4 @@ ChatGPT helped generate starter code, the mapping module, debugging
 guidance, and documentation drafts. I ran the notebook, selected and
 tested photographs, recorded outputs, and edited the project.
 See docs/AI_usage_log.md for details.
+

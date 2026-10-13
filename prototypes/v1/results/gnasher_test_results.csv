@@ -1,0 +1,9 @@
+Photo,Expected group,Leading group,Group score,Final decision
+brownlab2.jpeg,Sporting,Sporting,0.8731,Sporting
+huskyexample.jpg,Working,Working,0.2034,Uncertain
+papimydog.jpg,Non-Sporting,Non-Sporting,0.6647,Non-Sporting
+Goobmycat.jpg,Non-dog,Herding,0.3984,Uncertain
+beagledogex.webp,Hound,Hound,0.6318,Hound
+chiexample.jpeg,Toy,Toy,0.5592,Toy
+scotterex.jpeg,Terrier,Terrier,0.8565,Terrier
+bordercollieex.jpeg,Herding,Herding,0.9524,Herding

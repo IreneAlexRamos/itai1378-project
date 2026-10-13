@@ -88,3 +88,22 @@ accounting; they do not establish that each taxonomy assignment is correct.
 ChatGPT assisted with the original mapping. Irene still needs to review the
 exported assignments and sources before treating the table as verified
 student labeling.
+
+## Version 2 labeling and experiment workflow
+
+The new training notebook creates `stanford_breed_to_group_review.csv` from
+actual Stanford Dogs folder names after downloading the dataset. Suggestions
+come from the existing mapping; Irene must verify every assignment or exclusion,
+record sources, and mark the rows reviewed herself. The workflow stops on
+unreviewed labels. No 120-row reviewed dataset table has been completed yet.
+
+After review, it removes exact-byte duplicates and builds a capped custom
+70/15/15 split. Manifest hashes preserve split and label provenance. Excluded
+breeds and available counts may reduce the total below 7,000. Near duplicates
+are not screened automatically. Stanford Dogs is ImageNet-derived, so these
+splits do not establish separation from model pretraining data.
+
+The source images stay outside GitHub. Reviewed labels, manifests, weights,
+and run reports are saved to the student's Google Drive by the notebook.
+See [the final training plan](../docs/final_training_plan.md).
+
