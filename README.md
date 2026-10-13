@@ -159,8 +159,9 @@ published. This checklist separates implemented workflow from submission evidenc
       distinguishing validation accuracy from test accuracy.
 - [ ] Confirm that paired Version 1/Version 2 test comparison, confusion matrix,
       failure examples, and timing are included with their actual outputs.
-- [ ] Add the authorized Titus example photograph, its expected group, and its
-      actual prediction if appropriate; no Titus image upload is yet confirmed.
+- [x] Add the authorized Titus example photograph to the demonstration section.
+- [ ] Confirm Titus's breed before assigning a ground-truth group; document any
+      prediction only when its saved output has been verified.
 - [ ] Link the finished narration, demonstration, and final slides.
 
 Do not interpret the original 6/7 demonstration result as final test accuracy.
@@ -194,6 +195,23 @@ the original success targets were achieved. Further external evaluation on
 mixed breeds and non-dogs remains useful.
 
 ## Demonstration and presentation
+
+### Titus — example photograph
+
+<img src="results/test_images/titus.jpg" alt="Titus, a merle-coated dog, photographed outdoors" width="480">
+
+*Photograph supplied by Irene Ramos for this project.*
+
+Titus's appearance is consistent with an Australian Shepherd, but his breed
+has not been confirmed from supporting information; a photograph alone is
+insufficient to establish a ground-truth breed label. If confirmed as an
+[Australian Shepherd](https://www.akc.org/dog-breeds/australian-shepherd/),
+his expected AKC group would be **Herding**.
+
+This photograph is included as a demonstration input. No model prediction or
+confidence score is reported for Titus here, and he is not included in the
+eight recorded Version 1 results. Adding the image does not establish that
+either model has tested it or change the reported evaluation metrics.
 
 The narrated demonstration video and final presentation will be linked
 here after they are completed.
