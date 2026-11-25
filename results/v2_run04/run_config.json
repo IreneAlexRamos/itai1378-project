@@ -1,0 +1,11 @@
+{
+  "source_commit": "5402e9f2a5d7ad6ab1eccc5fe373f399417aaf49",
+  "seed": 42,
+  "cap_per_group": 1000,
+  "batch_size": 32,
+  "head_epochs": 3,
+  "fine_epochs": 5,
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "manifest_sha256": "9d660563a9d891abad42a6d5498bbbc0cdaea80b70175974f63a4b8a4f7a83cf"
+}

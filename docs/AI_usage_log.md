@@ -18,3 +18,9 @@
 | 2026-10-13 | ChatGPT / Codex | Addressed Professor McManus’s feedback: restored the original Blueprint with milestones and risks; added the Stanford Dogs link and Make It Yours labeling procedure; exported existing ImageNet mapping assignments; added top-two candidates for uncertain predictions. | Based on the professor feedback Irene supplied and the repository’s original proposal. Prior saved results retained. Student review of the mapping export and revised notebook remains pending; no Stanford Dogs training or new accuracy evaluation was performed. |
 | 2026-10-13 | ChatGPT / Codex | At Irene’s request, preserved Version 1 and prepared a separate Stanford Dogs training/evaluation workflow, student label-review table generator, split safeguards, transfer-learning stages, paired baseline evaluation, and progression documentation. | Irene chose to demonstrate progression. Offline split/review and metric checks were run on synthetic fixtures, and Python syntax was checked. Student label review, real dataset download, GPU training, and final metrics remain pending. No V2 results were invented. |
 
+
+### Confirmed follow-up
+
+| Date | Tool | Activity | Evidence and human review |
+| --- | --- | --- | --- |
+| 2026-11-25 | ChatGPT / Codex | Located the saved Drive run, checked paired test counts, drafted inference and submission materials, and exported existing evidence. | The original notebooks and historical entries were retained. This follow-up records agent activity. Student rehearsal and review are still pending. |

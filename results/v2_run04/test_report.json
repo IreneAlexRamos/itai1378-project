@@ -1,0 +1,325 @@
+{
+  "checkpoint_sha256": "946a3fddca5e3955e58d0395148b7e099c65cb0ff91ebdda15b5f6159b88041c",
+  "manifest_sha256": "9d660563a9d891abad42a6d5498bbbc0cdaea80b70175974f63a4b8a4f7a83cf",
+  "threshold_sha256": "c5b307a4994eef0e7c40d86076c5040a8c9ccfeb00443e92137ec8f42d578605",
+  "class_names": [
+    "Sporting",
+    "Hound",
+    "Working",
+    "Terrier",
+    "Toy",
+    "Non-Sporting",
+    "Herding"
+  ],
+  "device": "cuda",
+  "v2_threshold": 0.5,
+  "prototype_v1": {
+    "n": 1050,
+    "top1_accuracy": 0.9714285714285714,
+    "coverage": 0.96,
+    "abstentions": 42,
+    "accepted_accuracy": 0.9831349206349206,
+    "correct_with_abstentions_counted_in_denominator": 0.9438095238095238,
+    "confusion_matrix": [
+      [
+        150,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        146,
+        1,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        145,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        148,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        4,
+        142,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        4,
+        145,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        0,
+        0,
+        2,
+        144
+      ]
+    ],
+    "decision_matrix_with_uncertain": [
+      [
+        146,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        141,
+        1,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        2,
+        141,
+        0,
+        0,
+        0,
+        1,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        143,
+        1,
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        1,
+        3,
+        137,
+        2,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        142,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        141,
+        6
+      ]
+    ],
+    "per_group_accuracy": {
+      "Sporting": 1.0,
+      "Hound": 0.9733333333333334,
+      "Working": 0.9666666666666667,
+      "Terrier": 0.9866666666666667,
+      "Toy": 0.9466666666666667,
+      "Non-Sporting": 0.9666666666666667,
+      "Herding": 0.96
+    }
+  },
+  "trained_v2": {
+    "n": 1050,
+    "top1_accuracy": 0.9019047619047619,
+    "coverage": 0.9780952380952381,
+    "abstentions": 23,
+    "accepted_accuracy": 0.9143135345666992,
+    "correct_with_abstentions_counted_in_denominator": 0.8942857142857142,
+    "confusion_matrix": [
+      [
+        139,
+        2,
+        3,
+        0,
+        1,
+        5,
+        0
+      ],
+      [
+        3,
+        136,
+        4,
+        1,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        4,
+        132,
+        2,
+        0,
+        7,
+        5
+      ],
+      [
+        3,
+        2,
+        2,
+        135,
+        4,
+        3,
+        1
+      ],
+      [
+        5,
+        1,
+        3,
+        7,
+        127,
+        5,
+        2
+      ],
+      [
+        2,
+        0,
+        2,
+        1,
+        5,
+        139,
+        1
+      ],
+      [
+        0,
+        3,
+        5,
+        1,
+        0,
+        2,
+        139
+      ]
+    ],
+    "decision_matrix_with_uncertain": [
+      [
+        138,
+        2,
+        2,
+        0,
+        1,
+        4,
+        0,
+        3
+      ],
+      [
+        3,
+        134,
+        4,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        4,
+        132,
+        1,
+        0,
+        6,
+        4,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        135,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        5,
+        1,
+        3,
+        7,
+        127,
+        4,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        5,
+        138,
+        0,
+        4
+      ],
+      [
+        0,
+        3,
+        5,
+        0,
+        0,
+        1,
+        135,
+        6
+      ]
+    ],
+    "per_group_accuracy": {
+      "Sporting": 0.9266666666666666,
+      "Hound": 0.9066666666666666,
+      "Working": 0.88,
+      "Terrier": 0.9,
+      "Toy": 0.8466666666666667,
+      "Non-Sporting": 0.9266666666666666,
+      "Herding": 0.9266666666666666
+    }
+  },
+  "limitations": "Held out from project fine-tuning only; ImageNet pretraining overlap and near duplicates are possible. No reliable non-dog detection established."
+}

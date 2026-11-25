@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "cap": 1000,
+  "label_sha256": "4eface70ef96d63723cd217c56d3e82da8815e25f3d4bd849cf82a942596cd68",
+  "manifest_sha256": "9d660563a9d891abad42a6d5498bbbc0cdaea80b70175974f63a4b8a4f7a83cf",
+  "class_names": [
+    "Sporting",
+    "Hound",
+    "Working",
+    "Terrier",
+    "Toy",
+    "Non-Sporting",
+    "Herding"
+  ],
+  "selected_images": 7000,
+  "exact_duplicates_removed": 61,
+  "counts": {
+    "Sporting": {
+      "train": 700,
+      "validation": 150,
+      "test": 150
+    },
+    "Hound": {
+      "train": 700,
+      "validation": 150,
+      "test": 150
+    },
+    "Working": {
+      "train": 700,
+      "validation": 150,
+      "test": 150
+    },
+    "Terrier": {
+      "train": 700,
+      "validation": 150,
+      "test": 150
+    },
+    "Toy": {
+      "train": 700,
+      "validation": 150,
+      "test": 150
+    },
+    "Non-Sporting": {
+      "train": 700,
+      "validation": 150,
+      "test": 150
+    },
+    "Herding": {
+      "train": 700,
+      "validation": 150,
+      "test": 150
+    }
+  },
+  "split_method": "custom group-stratified 70/15/15; not Stanford official split",
+  "limitations": "Exact-byte deduplication only; near duplicates and ImageNet pretraining overlap remain possible."
+}

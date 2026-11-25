@@ -85,7 +85,7 @@ the code does not assume that “Eskimo dog” means American Eskimo Dog.
 The aggregation checks duplicate mapped labels, missing expected model labels,
 and probability totals. Those checks validate code structure and score
 accounting; they do not establish that each taxonomy assignment is correct.
-ChatGPT assisted with the original mapping. Irene still needs to review the
+ChatGPT assisted with the original mapping. The V1 documentation calls for reviewing the
 exported assignments and sources before treating the table as verified
 student labeling.
 
@@ -95,7 +95,7 @@ The new training notebook creates `stanford_breed_to_group_review.csv` from
 actual Stanford Dogs folder names after downloading the dataset. Suggestions
 come from the existing mapping; Irene must verify every assignment or exclusion,
 record sources, and mark the rows reviewed herself. The workflow stops on
-unreviewed labels. No 120-row reviewed dataset table has been completed yet.
+unreviewed labels. The recovered v2_run04 table has 120 rows marked reviewed. Some retained notes still say to verify the suggested mapping, so the status fields alone do not establish a fresh breed-by-breed verification.
 
 After review, it removes exact-byte duplicates and builds a capped custom
 70/15/15 split. Manifest hashes preserve split and label provenance. Excluded
@@ -107,3 +107,7 @@ The source images stay outside GitHub. Reviewed labels, manifests, weights,
 and run reports are saved to the student's Google Drive by the notebook.
 See [the final training plan](../docs/final_training_plan.md).
 
+
+## Final run
+
+The [label table](stanford_breed_to_group_review.csv), [split manifest](../results/v2_run04/manifest.csv), and [run summary](../results/v2_run04/) describe the actual Stanford Dogs fine-tuning dataset. The public table redacts the reviewer-name field. No dataset photos are distributed in the manifest. Recover the original archive from the Stanford Dogs project page or use a verified course copy if its direct HTTPS download fails.

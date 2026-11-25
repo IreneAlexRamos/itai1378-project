@@ -1,0 +1,121 @@
+stanford_breed_id,source_breed_name,canonical_breed,akc_group,include,source_url,notes,review_status,reviewed_by
+n02085620-Chihuahua,Chihuahua,Chihuahua,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02085782-Japanese_spaniel,Japanese_spaniel,Japanese Chin,Toy,no,https://www.akc.org/dog-breeds/toy/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02085936-Maltese_dog,Maltese_dog,Maltese dog,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02086079-Pekinese,Pekinese,Pekinese,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02086240-Shih-Tzu,Shih-Tzu,Shih-Tzu,Toy,no,https://www.akc.org/dog-breeds/toy/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02086646-Blenheim_spaniel,Blenheim_spaniel,Cavalier King Charles Spaniel,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02086910-papillon,papillon,papillon,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02087046-toy_terrier,toy_terrier,toy terrier,,no,http://vision.stanford.edu/aditya86/ImageNetDogs/,Generic label; do not assume a specific AKC breed/variety.,reviewed,Student reviewer
+n02087394-Rhodesian_ridgeback,Rhodesian_ridgeback,Rhodesian ridgeback,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02088094-Afghan_hound,Afghan_hound,Afghan hound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02088238-basset,basset,Basset Hound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02088364-beagle,beagle,beagle,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02088466-bloodhound,bloodhound,bloodhound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02088632-bluetick,bluetick,bluetick,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02089078-black-and-tan_coonhound,black-and-tan_coonhound,black-and-tan coonhound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02089867-Walker_hound,Walker_hound,Walker hound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02089973-English_foxhound,English_foxhound,English foxhound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02090379-redbone,redbone,redbone,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02090622-borzoi,borzoi,borzoi,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02090721-Irish_wolfhound,Irish_wolfhound,Irish wolfhound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02091032-Italian_greyhound,Italian_greyhound,Italian greyhound,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02091134-whippet,whippet,whippet,Hound,no,https://www.akc.org/dog-breeds/hound/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02091244-Ibizan_hound,Ibizan_hound,Ibizan hound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02091467-Norwegian_elkhound,Norwegian_elkhound,Norwegian elkhound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02091635-otterhound,otterhound,otterhound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02091831-Saluki,Saluki,Saluki,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02092002-Scottish_deerhound,Scottish_deerhound,Scottish deerhound,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02092339-Weimaraner,Weimaraner,Weimaraner,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02093256-Staffordshire_bullterrier,Staffordshire_bullterrier,Staffordshire bullterrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02093428-American_Staffordshire_terrier,American_Staffordshire_terrier,American Staffordshire terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02093647-Bedlington_terrier,Bedlington_terrier,Bedlington terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02093754-Border_terrier,Border_terrier,Border terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02093859-Kerry_blue_terrier,Kerry_blue_terrier,Kerry blue terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02093991-Irish_terrier,Irish_terrier,Irish terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02094114-Norfolk_terrier,Norfolk_terrier,Norfolk terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02094258-Norwich_terrier,Norwich_terrier,Norwich terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02094433-Yorkshire_terrier,Yorkshire_terrier,Yorkshire terrier,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02095314-wire-haired_fox_terrier,wire-haired_fox_terrier,wire-haired fox terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02095570-Lakeland_terrier,Lakeland_terrier,Lakeland terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02095889-Sealyham_terrier,Sealyham_terrier,Sealyham terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02096051-Airedale,Airedale,Airedale,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02096177-cairn,cairn,cairn,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02096294-Australian_terrier,Australian_terrier,Australian terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02096437-Dandie_Dinmont,Dandie_Dinmont,Dandie Dinmont,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02096585-Boston_bull,Boston_bull,Boston Terrier,Non-Sporting,yes,https://www.akc.org/dog-breeds/non-sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02097047-miniature_schnauzer,miniature_schnauzer,miniature schnauzer,Terrier,no,https://www.akc.org/dog-breeds/terrier/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02097130-giant_schnauzer,giant_schnauzer,giant schnauzer,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02097209-standard_schnauzer,standard_schnauzer,standard schnauzer,Working,no,https://www.akc.org/dog-breeds/working/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02097298-Scotch_terrier,Scotch_terrier,Scottish Terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02097474-Tibetan_terrier,Tibetan_terrier,Tibetan terrier,Non-Sporting,no,https://www.akc.org/dog-breeds/non-sporting/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02097658-silky_terrier,silky_terrier,silky terrier,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02098105-soft-coated_wheaten_terrier,soft-coated_wheaten_terrier,soft-coated wheaten terrier,Terrier,no,https://www.akc.org/dog-breeds/terrier/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02098286-West_Highland_white_terrier,West_Highland_white_terrier,West Highland white terrier,Terrier,yes,https://www.akc.org/dog-breeds/terrier/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02098413-Lhasa,Lhasa,Lhasa,Non-Sporting,yes,https://www.akc.org/dog-breeds/non-sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02099267-flat-coated_retriever,flat-coated_retriever,flat-coated retriever,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02099429-curly-coated_retriever,curly-coated_retriever,curly-coated retriever,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02099601-golden_retriever,golden_retriever,golden retriever,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02099712-Labrador_retriever,Labrador_retriever,Labrador retriever,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02099849-Chesapeake_Bay_retriever,Chesapeake_Bay_retriever,Chesapeake Bay retriever,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02100236-German_short-haired_pointer,German_short-haired_pointer,German short-haired pointer,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02100583-vizsla,vizsla,vizsla,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02100735-English_setter,English_setter,English setter,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02100877-Irish_setter,Irish_setter,Irish setter,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02101006-Gordon_setter,Gordon_setter,Gordon setter,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02101388-Brittany_spaniel,Brittany_spaniel,Brittany spaniel,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02101556-clumber,clumber,clumber,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02102040-English_springer,English_springer,English Springer Spaniel,Sporting,no,https://www.akc.org/dog-breeds/sporting/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02102177-Welsh_springer_spaniel,Welsh_springer_spaniel,Welsh springer spaniel,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02102318-cocker_spaniel,cocker_spaniel,cocker spaniel,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02102480-Sussex_spaniel,Sussex_spaniel,Sussex spaniel,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02102973-Irish_water_spaniel,Irish_water_spaniel,Irish water spaniel,Sporting,yes,https://www.akc.org/dog-breeds/sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02104029-kuvasz,kuvasz,kuvasz,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02104365-schipperke,schipperke,schipperke,Non-Sporting,no,https://www.akc.org/dog-breeds/non-sporting/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02105056-groenendael,groenendael,groenendael,Herding,no,https://www.akc.org/dog-breeds/herding/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02105162-malinois,malinois,malinois,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02105251-briard,briard,briard,Herding,no,https://www.akc.org/dog-breeds/herding/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02105412-kelpie,kelpie,kelpie,,no,http://vision.stanford.edu/aditya86/ImageNetDogs/,No seven-group assignment used in this proof of concept.,reviewed,Student reviewer
+n02105505-komondor,komondor,komondor,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02105641-Old_English_sheepdog,Old_English_sheepdog,Old English sheepdog,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02105855-Shetland_sheepdog,Shetland_sheepdog,Shetland sheepdog,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02106030-collie,collie,collie,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02106166-Border_collie,Border_collie,Border collie,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02106382-Bouvier_des_Flandres,Bouvier_des_Flandres,Bouvier des Flandres,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02106550-Rottweiler,Rottweiler,Rottweiler,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02106662-German_shepherd,German_shepherd,German shepherd,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02107142-Doberman,Doberman,Doberman,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02107312-miniature_pinscher,miniature_pinscher,miniature pinscher,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02107574-Greater_Swiss_Mountain_dog,Greater_Swiss_Mountain_dog,Greater Swiss Mountain dog,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02107683-Bernese_mountain_dog,Bernese_mountain_dog,Bernese mountain dog,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02107908-Appenzeller,Appenzeller,Appenzeller,,no,http://vision.stanford.edu/aditya86/ImageNetDogs/,No seven-group assignment used in this proof of concept.,reviewed,Student reviewer
+n02108000-EntleBucher,EntleBucher,EntleBucher,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02108089-boxer,boxer,boxer,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02108422-bull_mastiff,bull_mastiff,bull mastiff,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02108551-Tibetan_mastiff,Tibetan_mastiff,Tibetan mastiff,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02108915-French_bulldog,French_bulldog,French bulldog,Non-Sporting,yes,https://www.akc.org/dog-breeds/non-sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02109047-Great_Dane,Great_Dane,Great Dane,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02109525-Saint_Bernard,Saint_Bernard,Saint Bernard,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02109961-Eskimo_dog,Eskimo_dog,Eskimo dog,,no,http://vision.stanford.edu/aditya86/ImageNetDogs/,Ambiguous label; do not assume American Eskimo Dog.,reviewed,Student reviewer
+n02110063-malamute,malamute,malamute,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02110185-Siberian_husky,Siberian_husky,Siberian husky,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02110627-affenpinscher,affenpinscher,affenpinscher,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02110806-basenji,basenji,basenji,Hound,yes,https://www.akc.org/dog-breeds/hound/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02110958-pug,pug,pug,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02111129-Leonberg,Leonberg,Leonberg,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02111277-Newfoundland,Newfoundland,Newfoundland,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02111500-Great_Pyrenees,Great_Pyrenees,Great Pyrenees,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02111889-Samoyed,Samoyed,Samoyed,Working,yes,https://www.akc.org/dog-breeds/working/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02112018-Pomeranian,Pomeranian,Pomeranian,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02112137-chow,chow,chow,Non-Sporting,yes,https://www.akc.org/dog-breeds/non-sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02112350-keeshond,keeshond,keeshond,Non-Sporting,yes,https://www.akc.org/dog-breeds/non-sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02112706-Brabancon_griffon,Brabancon_griffon,Brussels Griffon,Toy,yes,https://www.akc.org/dog-breeds/toy/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02113023-Pembroke,Pembroke,Pembroke,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02113186-Cardigan,Cardigan,Cardigan,Herding,yes,https://www.akc.org/dog-breeds/herding/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02113624-toy_poodle,toy_poodle,toy poodle,Toy,no,https://www.akc.org/dog-breeds/toy/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02113712-miniature_poodle,miniature_poodle,miniature poodle,Non-Sporting,no,https://www.akc.org/dog-breeds/non-sporting/,Excluded programmatically due to duplicate image group conflicts.,reviewed,Student reviewer
+n02113799-standard_poodle,standard_poodle,standard poodle,Non-Sporting,yes,https://www.akc.org/dog-breeds/non-sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02113978-Mexican_hairless,Mexican_hairless,Xoloitzcuintli,Non-Sporting,yes,https://www.akc.org/dog-breeds/non-sporting/,Suggested from V1; verify breed and AKC group.,reviewed,Student reviewer
+n02115641-dingo,dingo,dingo,,no,http://vision.stanford.edu/aditya86/ImageNetDogs/,No verified V1 match; exclude until reviewed.,reviewed,Student reviewer
+n02115913-dhole,dhole,dhole,,no,http://vision.stanford.edu/aditya86/ImageNetDogs/,No verified V1 match; exclude until reviewed.,reviewed,Student reviewer
+n02116738-African_hunting_dog,African_hunting_dog,African hunting dog,,no,http://vision.stanford.edu/aditya86/ImageNetDogs/,No verified V1 match; exclude until reviewed.,reviewed,Student reviewer

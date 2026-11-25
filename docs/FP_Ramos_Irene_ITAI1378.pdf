@@ -1,0 +1,474 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 12 /Kids [7 0 R 9 0 R 11 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 32 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54 245 228.96 271] /Border [0 0 0] /A << /S /URI /URI (https://github.com/IreneAlexRamos/itai1378-project) >> >>
+endobj
+6 0 obj
+<< /Length 788 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 62 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 395 Tm (Gnasher Group) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 352 Tm (Single-photo AKC dog-group classification) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (Irene Ramos | ITAI 1378 | Tier 1) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Houston Community College) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Project repository) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (01 / 12) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 6 0 R /Annots [5 0 R] >>
+endobj
+8 0 obj
+<< /Length 764 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (The problem) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Similar-looking breeds can be difficult to place.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (Veterinary-care experience inspired the project.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (The prototype suggests an AKC group for learning and review.) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (02 / 12) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 8 0 R /Annots [] >>
+endobj
+10 0 obj
+<< /Length 758 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (What I built) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (From a photograph to a decision) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (Photo upload  >  RGB and transforms  >  EfficientNet-B0) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Seven group scores  >  group or Uncertain  >  top two candidates) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (03 / 12) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 10 0 R /Annots [] >>
+endobj
+12 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54 182 287.28000000000003 206] /Border [0 0 0] /A << /S /URI /URI (https://github.com/IreneAlexRamos/itai1378-project/blob/main/notebooks/Gnasher_Group_Inference.ipynb) >> >>
+endobj
+13 0 obj
+<< /Length 961 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (Demonstration) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Show one correct result and one abstention) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (Known-label Sporting test image: correct in the saved run.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Cocker spaniel: Non-Sporting led at 49.4%; decision Uncertain.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Narrated demo link pending recording.) Tj ET
+BT /B 16 Tf 0.3451 0.8667 0.7922 rg 1 0 0 1 54 186 Tm (Open the inference notebook) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (04 / 12) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 13 0 R /Annots [12 0 R] >>
+endobj
+15 0 obj
+<< /Length 859 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (How it works) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Fine-tuned EfficientNet-B0) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (ImageNet initialization  >  seven-output classifier head) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (3 head-training epochs  >  5 partial fine-tuning epochs) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Softmax scores; 50% threshold chosen on validation.) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (05 / 12) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 15 0 R /Annots [] >>
+endobj
+17 0 obj
+<< /Length 839 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (The data) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (7,000 balanced Stanford Dogs images) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (20,580 source photos from 120 breeds) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (4,900 train | 1,050 validation | 1,050 test) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (700 / 150 / 150 per group. RGB, crop/resize and normalize.) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (06 / 12) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 17 0 R /Annots [] >>
+endobj
+19 0 obj
+<< /Length 1438 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (Blueprint targets) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Accuracy, latency and failure analysis) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (85% accuracy target  |  90.19% V2 top-1 on project test) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Under 1 s target  |  8.12 ms GPU forward only) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Confusion matrix and 5 reviewed errors available.) Tj ET
+BT /B 16 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 55 196 Tm (V1) Tj ET
+0.1529 0.2392 0.3137 rg 105 194 570 17 re f
+0.3176 0.8314 0.7020 rg 105 194 553.698 17 re f
+BT /B 17 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 690 197 Tm (97.14%) Tj ET
+BT /B 16 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 55 143 Tm (V2) Tj ET
+0.1529 0.2392 0.3137 rg 105 141 570 17 re f
+0.9529 0.7176 0.4039 rg 105 141 514.083 17 re f
+BT /B 17 Tf 0.9529 0.7176 0.4039 rg 1 0 0 1 690 144 Tm (90.19%) Tj ET
+BT /R 13 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 55 90 Tm (Paired top-1 accuracy on the same 1,050 project test images) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (07 / 12) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 19 0 R /Annots [] >>
+endobj
+21 0 obj
+<< /Length 2827 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (What changed) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (The prototype became a trained classifier) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (V1 mapped existing ImageNet breed scores into groups.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (V2 trained directly on 7 groups and chose its threshold on validation.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Same 1,050 test photos for both. V2 answered more often.) Tj ET
+BT /B 14 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 55 203 Tm (Saved validation top-1 by epoch) Tj ET
+0.3176 0.8314 0.7020 rg 57 88 45 -484.29616458075384 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 57 72 Tm (1) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 55 -387.29616458075384 Tm (44.6) Tj ET
+0.3176 0.8314 0.7020 rg 128 87.99999999999989 45 -627.8982802118575 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 128 72 Tm (2) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 126 -530.8982802118576 Tm (32.7) Tj ET
+0.3176 0.8314 0.7020 rg 199 88 45 -683.532830442701 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 199 72 Tm (3) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 197 -586.532830442701 Tm (28.0) Tj ET
+0.9529 0.7176 0.4039 rg 270 88 45 -588.8164435114179 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 270 72 Tm (4) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 268 -491.8164435114179 Tm (35.9) Tj ET
+0.9529 0.7176 0.4039 rg 341 88.00000000000011 45 -667.1883016995022 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 341 72 Tm (5) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 339 -570.1883016995021 Tm (29.4) Tj ET
+0.9529 0.7176 0.4039 rg 412 88.00000000000011 45 -668.8057966572898 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 412 72 Tm (6) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 410 -571.8057966572896 Tm (29.3) Tj ET
+0.9529 0.7176 0.4039 rg 483 88 45 -679.5015662057058 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 483 72 Tm (7) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 481 -582.5015662057058 Tm (28.4) Tj ET
+0.9529 0.7176 0.4039 rg 554 88 45 -692.2648495946612 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 554 72 Tm (8) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 552 -595.2648495946612 Tm (27.3) Tj ET
+BT /R 15 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 660 152 Tm (Head training) Tj ET
+BT /R 15 Tf 0.9529 0.7176 0.4039 rg 1 0 0 1 660 123 Tm (Partial fine-tuning) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (08 / 12) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 21 0 R /Annots [] >>
+endobj
+23 0 obj
+<< /Length 2814 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (Challenges and fixes) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Control what can change the result) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (Mapping: document breed aliases and exclusions.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Data: deduplicate exact files and keep the split fixed.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Evaluation: lock threshold and compare on the same test images.) Tj ET
+BT /B 14 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 55 203 Tm (Saved validation top-1 by epoch) Tj ET
+0.3176 0.8314 0.7020 rg 57 88 45 -484.29616458075384 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 57 72 Tm (1) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 55 -387.29616458075384 Tm (44.6) Tj ET
+0.3176 0.8314 0.7020 rg 128 87.99999999999989 45 -627.8982802118575 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 128 72 Tm (2) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 126 -530.8982802118576 Tm (32.7) Tj ET
+0.3176 0.8314 0.7020 rg 199 88 45 -683.532830442701 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 199 72 Tm (3) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 197 -586.532830442701 Tm (28.0) Tj ET
+0.9529 0.7176 0.4039 rg 270 88 45 -588.8164435114179 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 270 72 Tm (4) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 268 -491.8164435114179 Tm (35.9) Tj ET
+0.9529 0.7176 0.4039 rg 341 88.00000000000011 45 -667.1883016995022 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 341 72 Tm (5) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 339 -570.1883016995021 Tm (29.4) Tj ET
+0.9529 0.7176 0.4039 rg 412 88.00000000000011 45 -668.8057966572898 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 412 72 Tm (6) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 410 -571.8057966572896 Tm (29.3) Tj ET
+0.9529 0.7176 0.4039 rg 483 88 45 -679.5015662057058 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 483 72 Tm (7) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 481 -582.5015662057058 Tm (28.4) Tj ET
+0.9529 0.7176 0.4039 rg 554 88 45 -692.2648495946612 re f
+BT /R 12 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 554 72 Tm (8) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 552 -595.2648495946612 Tm (27.3) Tj ET
+BT /R 15 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 660 152 Tm (Head training) Tj ET
+BT /R 15 Tf 0.9529 0.7176 0.4039 rg 1 0 0 1 660 123 Tm (Partial fine-tuning) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (09 / 12) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 23 0 R /Annots [] >>
+endobj
+25 0 obj
+<< /Length 902 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (Lessons and next steps) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Measure generalization before claiming improvement) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (Use fresh photos independent of ImageNet where possible.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Try breed-disjoint evaluation and check near duplicates.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Measure the full prediction path and test non-dog handling.) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (10 / 12) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 25 0 R /Annots [] >>
+endobj
+27 0 obj
+<< /Length 8017 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (Where V2 struggled) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Two different failure modes) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (Cocker spaniel: Sporting expected; Uncertain at 49.4%.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Borzoi: Hound expected; Working at 91.5%.) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (A high score can still accompany an error.) Tj ET
+BT /R 13 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 55 207 Tm (V2 test decisions: rows are expected groups) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 126 189 Tm (Sp) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 174 189 Tm (Ho) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 222 189 Tm (Wo) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 270 189 Tm (Te) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 318 189 Tm (To) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 366 189 Tm (NS) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 414 189 Tm (He) Tj ET
+BT /R 11 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 462 189 Tm (?) Tj ET
+BT /R 10 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 74 169 Tm (Sp) Tj ET
+0.1098 0.4118 0.3725 rg 117 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 129 170 Tm (138) Tj ET
+0.1490 0.2353 0.3137 rg 165 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 177 170 Tm (2) Tj ET
+0.1490 0.2353 0.3137 rg 213 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 225 170 Tm (2) Tj ET
+0.1490 0.2353 0.3137 rg 261 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 273 170 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 309 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 321 170 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 357 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 369 170 Tm (4) Tj ET
+0.1490 0.2353 0.3137 rg 405 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 417 170 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 453 165 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 465 170 Tm (3) Tj ET
+BT /R 10 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 74 150 Tm (Ho) Tj ET
+0.1490 0.2353 0.3137 rg 117 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 129 151 Tm (3) Tj ET
+0.1098 0.4118 0.3725 rg 165 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 177 151 Tm (134) Tj ET
+0.1490 0.2353 0.3137 rg 213 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 225 151 Tm (4) Tj ET
+0.1490 0.2353 0.3137 rg 261 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 273 151 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 309 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 321 151 Tm (2) Tj ET
+0.1490 0.2353 0.3137 rg 357 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 369 151 Tm (2) Tj ET
+0.1490 0.2353 0.3137 rg 405 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 417 151 Tm (2) Tj ET
+0.1490 0.2353 0.3137 rg 453 146 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 465 151 Tm (2) Tj ET
+BT /R 10 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 74 131 Tm (Wo) Tj ET
+0.1490 0.2353 0.3137 rg 117 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 129 132 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 165 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 177 132 Tm (4) Tj ET
+0.1098 0.4118 0.3725 rg 213 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 225 132 Tm (132) Tj ET
+0.1490 0.2353 0.3137 rg 261 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 273 132 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 309 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 321 132 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 357 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 369 132 Tm (6) Tj ET
+0.1490 0.2353 0.3137 rg 405 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 417 132 Tm (4) Tj ET
+0.1490 0.2353 0.3137 rg 453 127 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 465 132 Tm (3) Tj ET
+BT /R 10 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 74 112 Tm (Te) Tj ET
+0.1490 0.2353 0.3137 rg 117 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 129 113 Tm (3) Tj ET
+0.1490 0.2353 0.3137 rg 165 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 177 113 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 213 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 225 113 Tm (2) Tj ET
+0.1098 0.4118 0.3725 rg 261 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 273 113 Tm (135) Tj ET
+0.1490 0.2353 0.3137 rg 309 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 321 113 Tm (3) Tj ET
+0.1490 0.2353 0.3137 rg 357 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 369 113 Tm (3) Tj ET
+0.1490 0.2353 0.3137 rg 405 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 417 113 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 453 108 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 465 113 Tm (3) Tj ET
+BT /R 10 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 74 93 Tm (To) Tj ET
+0.1490 0.2353 0.3137 rg 117 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 129 94 Tm (5) Tj ET
+0.1490 0.2353 0.3137 rg 165 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 177 94 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 213 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 225 94 Tm (3) Tj ET
+0.1490 0.2353 0.3137 rg 261 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 273 94 Tm (7) Tj ET
+0.1098 0.4118 0.3725 rg 309 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 321 94 Tm (127) Tj ET
+0.1490 0.2353 0.3137 rg 357 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 369 94 Tm (4) Tj ET
+0.1490 0.2353 0.3137 rg 405 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 417 94 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 453 89 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 465 94 Tm (2) Tj ET
+BT /R 10 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 74 74 Tm (NS) Tj ET
+0.1490 0.2353 0.3137 rg 117 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 129 75 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 165 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 177 75 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 213 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 225 75 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 261 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 273 75 Tm (1) Tj ET
+0.1490 0.2353 0.3137 rg 309 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 321 75 Tm (5) Tj ET
+0.1098 0.4118 0.3725 rg 357 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 369 75 Tm (138) Tj ET
+0.1490 0.2353 0.3137 rg 405 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 417 75 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 453 70 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 465 75 Tm (4) Tj ET
+BT /R 10 Tf 0.8392 0.8706 0.9137 rg 1 0 0 1 74 55 Tm (He) Tj ET
+0.1490 0.2353 0.3137 rg 117 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 129 56 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 165 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 177 56 Tm (3) Tj ET
+0.1490 0.2353 0.3137 rg 213 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 225 56 Tm (5) Tj ET
+0.1490 0.2353 0.3137 rg 261 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 273 56 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 309 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 321 56 Tm (0) Tj ET
+0.1490 0.2353 0.3137 rg 357 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 369 56 Tm (1) Tj ET
+0.1098 0.4118 0.3725 rg 405 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 417 56 Tm (135) Tj ET
+0.1490 0.2353 0.3137 rg 453 51 45 17 re f
+BT /R 10 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 465 56 Tm (6) Tj ET
+BT /R 14 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 530 140 Tm (? = Uncertain) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (11 / 12) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 27 0 R /Annots [] >>
+endobj
+29 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54 162 331.02000000000004 189] /Border [0 0 0] /A << /S /URI /URI (https://github.com/IreneAlexRamos/itai1378-project) >> >>
+endobj
+30 0 obj
+<< /Type /Annot /Subtype /Link /Rect [54 122 341.28000000000003 149] /Border [0 0 0] /A << /S /URI /URI (https://github.com/IreneAlexRamos/itai1378-project/tree/main/results/v2_run04) >> >>
+endobj
+31 0 obj
+<< /Length 1035 >>
+stream
+0.0627 0.1294 0.1961 rg 0 0 960 540 re f
+0.3176 0.8314 0.7020 rg 0 532 960 8 re f
+BT /B 12 Tf 0.3176 0.8314 0.7020 rg 1 0 0 1 52 490 Tm (GNASHER GROUP  /  ITAI 1378) Tj ET
+BT /B 43 Tf 1.0000 1.0000 1.0000 rg 1 0 0 1 52 414 Tm (Evidence and links) Tj ET
+BT /B 23 Tf 0.6196 0.8588 0.8118 rg 1 0 0 1 54 373 Tm (Inspect the saved run and the Blueprint) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 317 Tm (GitHub repository and inference notebook) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 283 Tm (Saved metrics, learning curves and decision matrix) Tj ET
+BT /R 18 Tf 0.8863 0.9176 0.9490 rg 1 0 0 1 54 249 Tm (Stanford Dogs, Torchvision and AI usage credits.) Tj ET
+BT /B 19 Tf 0.3451 0.8667 0.7922 rg 1 0 0 1 54 166 Tm (Open the project repository) Tj ET
+BT /B 19 Tf 0.3451 0.8667 0.7922 rg 1 0 0 1 54 126 Tm (View the saved V2 evaluation) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 52 17 Tm (IRENE RAMOS  /  HOUSTON COMMUNITY COLLEGE) Tj ET
+BT /R 10 Tf 0.6196 0.7098 0.7922 rg 1 0 0 1 870 17 Tm (12 / 12) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /R 3 0 R /B 4 0 R >> >> /Contents 31 0 R /Annots [29 0 R 30 0 R] >>
+endobj
+xref
+0 33
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000192 00000 n 
+0000000262 00000 n 
+0000000337 00000 n 
+0000000503 00000 n 
+0000001342 00000 n 
+0000001492 00000 n 
+0000002307 00000 n 
+0000002452 00000 n 
+0000003262 00000 n 
+0000003409 00000 n 
+0000003638 00000 n 
+0000004651 00000 n 
+0000004804 00000 n 
+0000005715 00000 n 
+0000005862 00000 n 
+0000006753 00000 n 
+0000006900 00000 n 
+0000008391 00000 n 
+0000008538 00000 n 
+0000011418 00000 n 
+0000011565 00000 n 
+0000014432 00000 n 
+0000014579 00000 n 
+0000015533 00000 n 
+0000015680 00000 n 
+0000023750 00000 n 
+0000023897 00000 n 
+0000024076 00000 n 
+0000024282 00000 n 
+0000025370 00000 n 
+trailer
+<< /Size 33 /Root 1 0 R >>
+startxref
+25530
+%%EOF

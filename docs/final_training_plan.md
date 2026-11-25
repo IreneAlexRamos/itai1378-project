@@ -1,3 +1,5 @@
+> Historical plan. The saved V2 run and its recovered evidence are now documented in [v2_run04](../results/v2_run04/README.md).
+
 # Gnasher Group — final training plan and learning progression
 
 ## What is preserved

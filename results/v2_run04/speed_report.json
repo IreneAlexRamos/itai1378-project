@@ -1,0 +1,8 @@
+{
+  "device": "cuda",
+  "runs": 30,
+  "warmups": 5,
+  "mean_forward_seconds": 0.008121853300038614,
+  "median_forward_seconds": 0.007804970000051981,
+  "scope": "preloaded batch, model forward only; excludes image loading and preprocessing"
+}
