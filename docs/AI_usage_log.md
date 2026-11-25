@@ -26,3 +26,5 @@ The entries for starter code, group mapping, provisional threshold, image handli
 | Date | Tool | Activity | Evidence and human review |
 | --- | --- | --- | --- |
 | 2026-11-25 | ChatGPT / Codex | Located the saved Drive run, checked paired test counts, drafted inference and submission materials, and exported existing evidence. | The original notebooks and historical entries were retained. This follow-up records agent activity. Student rehearsal and review are still pending. |
+
+| 2026-11-25 | ChatGPT / Codex | Rendered the 12-slide deck, corrected the chart using the saved learning curves, and tested the inference notebook code against two original benchmark photos. | Agent QA verified checkpoint and image hashes and reproduced Sporting and Uncertain on CPU. Student Colab rehearsal and recording are pending. |

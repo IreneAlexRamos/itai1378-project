@@ -2,11 +2,17 @@
 
 ## Set up before recording
 
-1. Open Google Drive → My Drive → GnasherGroup → experiments → v2_run04. Download best.pt only. Keep the rest of the folder private. For analysis the same folder holds threshold.json, run_config.json, test_report.json, test_predictions.csv, history.csv, speed_report.json, manifest.csv, manifest_metadata.json, and three PNGs. The original breed-label CSV is one level above experiments in GnasherGroup.
-2. Open the [inference notebook](../notebooks/Gnasher_Group_Inference.ipynb) in Google Colab. Run the setup cell and select best.pt when prompted. A successful setup prints the device and the 50% threshold. A hash error means the file is from a different run or was changed. Use the original file.
-3. Download [Titus](../results/test_images/titus.jpg) from GitHub for rehearsal. The saved notebook shows Herding 80.37%. Describe this as an example prediction because his breed is unconfirmed. Use a known-label image for a verified success. Use the verified benchmark example below.
-4. Extract the two named benchmark photos from your original Stanford Dogs archive. Rehearse each through the inference cell. The model should display the image, decision, score, two candidates and any warning. For a mismatch with the saved results, check the file path and checkpoint, then describe the actual result on camera.
-5. Open your recorder, capture only the Colab tab or window, select your microphone and test 10 seconds. Keep Drive tabs, notifications and personal files off screen.
+1. Download only `best.pt` from **My Drive → GnasherGroup → experiments → v2_run04**. Keep it outside the public repository.
+2. In the [Stanford Dogs archive](https://vision.stanford.edu/aditya86/ImageNetDogs/images.tar), extract these exact files. Keep them local.
+   - `Images/n02099267-flat-coated_retriever/n02099267_2269.jpg`
+   - `Images/n02102318-cocker_spaniel/n02102318_11704.jpg`
+3. Open [Gnasher_Group_Inference.ipynb in Colab](https://colab.research.google.com/github/IreneAlexRamos/itai1378-project/blob/main/notebooks/Gnasher_Group_Inference.ipynb). A CPU runtime works. Run **1. Load the checkpoint** and upload `best.pt` when prompted. Wait for `v2_run04 ready` and a locked threshold of 50%. A hash error signals the wrong or altered file. Re-download the original.
+4. Run **2. Upload and classify one photo** and select `n02099267_2269.jpg`. Wait for Sporting and a score around 96.8%. Run only cell 2 again and select `n02102318_11704.jpg`. Wait for Uncertain and a warning. The top candidates should be Non-Sporting around 49.4% and Sporting around 49.1%. Both JPEG hashes and these outcomes matched in fresh CPU testing. Colab's upload widget itself still needs your rehearsal.
+5. Before recording, connect the runtime, load the checkpoint, test your microphone, and capture only the notebook tab. In the recording, execute cell 2 on camera for both results. Narrate the displayed decisions as they happen.
+
+## Give Patricia access to the checkpoint
+
+In Drive, right-click **best.pt** itself → **Share** → enter Patricia's confirmed HCC email → choose **Viewer** → **Send**. Keep **General access** set to **Restricted**, and verify Viewer download is allowed. Send her the public Colab link as well. She can download this one file and upload it in cell 1. Sharing the parent folder is unnecessary. The demo video uses a separate link and access setting.
 
 ## Examples
 

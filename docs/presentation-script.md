@@ -25,7 +25,7 @@ Here is the pipeline. First I upload a photo and convert it to RGB. The model ne
 
 ## 4. Demonstration
 
-Here I show the actual inference notebook after loading the saved checkpoint. I upload one known-label example and look at the image and output. Then I show the cocker spaniel. Sporting was expected. The saved output led with Non-Sporting at 49.4 percent, so the system abstained. I want the viewer to see an input go through the workflow and watch the difference between a usable prediction and a result that needs review. [Use about two minutes for both uploads and visible predictions, or show a rehearsed excerpt.]
+Here I show the actual inference notebook after loading the saved checkpoint. I upload n02099267_2269.jpg, a flat-coated retriever labeled Sporting. The notebook shows Sporting at about 96.8 percent. I run the upload cell again and select n02102318_11704.jpg, the cocker spaniel. Sporting was expected. The model led with Non-Sporting at 49.4 percent, so the system abstained. I want the viewer to see an input go through the workflow and watch the difference between a usable prediction and a result that needs review. [Use about two minutes for both uploads and visible predictions, or show a rehearsed excerpt.]
 
 ## 5. How it works
 

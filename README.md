@@ -8,7 +8,7 @@ Gnasher Group predicts an AKC group or returns Uncertain from a single dog photo
 
 ## Run the final demo
 
-Open the [inference-only notebook](notebooks/Gnasher_Group_Inference.ipynb) in [Colab](https://colab.research.google.com/github/IreneAlexRamos/itai1378-project/blob/main/notebooks/Gnasher_Group_Inference.ipynb). Upload the original v2_run04 `best.pt` or point the notebook to your Drive copy. The threshold ships in the repository and the notebook checks the checkpoint SHA-256 before loading. Then upload one dog photo. The checkpoint is currently private. Course reviewers can inspect the saved [training notebook](notebooks/Gnasher_Group_Training.ipynb) and use the [V1 backup](prototypes/v1/README.md). See the [recording guide](docs/demo-recording.md).
+Open the [inference-only notebook](notebooks/Gnasher_Group_Inference.ipynb) in [Colab](https://colab.research.google.com/github/IreneAlexRamos/itai1378-project/blob/main/notebooks/Gnasher_Group_Inference.ipynb). Upload the original v2_run04 `best.pt` or point the notebook to your Drive copy. The threshold ships in the repository and the notebook checks the checkpoint SHA-256 before loading. Then upload one dog photo. The checkpoint is currently private. A fresh CPU check with the verified checkpoint reproduced the two benchmark examples in the recording guide. Course reviewers can inspect the saved [training notebook](notebooks/Gnasher_Group_Training.ipynb) and use the [V1 backup](prototypes/v1/README.md). See the [recording guide](docs/demo-recording.md).
 
 **Narrated 3–5 minute demo** · Pending recording and signed-out access check. Add the live URL here and to the final slides.
 
