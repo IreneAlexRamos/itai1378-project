@@ -1,7 +1,8 @@
+# Install torch and torchvision as a compatible pair for your platform.
+# Saved v2_run04: torch 2.11.0+cu130 and torchvision 0.26.0+cu130 on Colab Tesla T4.
 torch
 torchvision
 pillow
 matplotlib
 pandas
 numpy
-

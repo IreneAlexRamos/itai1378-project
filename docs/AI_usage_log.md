@@ -19,6 +19,8 @@
 | 2026-10-13 | ChatGPT / Codex | At Irene’s request, preserved Version 1 and prepared a separate Stanford Dogs training/evaluation workflow, student label-review table generator, split safeguards, transfer-learning stages, paired baseline evaluation, and progression documentation. | Irene chose to demonstrate progression. Offline split/review and metric checks were run on synthetic fixtures, and Python syntax was checked. Student label review, real dataset download, GPU training, and final metrics remain pending. No V2 results were invented. |
 
 
+The entries for starter code, group mapping, provisional threshold, image handling, results export, speed benchmark, notebook documentation, feedback changes, and the V2 workflow provide a nine-entry path through the full log.
+
 ### Confirmed follow-up
 
 | Date | Tool | Activity | Evidence and human review |

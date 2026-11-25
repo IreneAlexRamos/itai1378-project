@@ -1,6 +1,15 @@
 # Gnasher Group | 10-minute speaking script
 
-Rehearse against a timer at your own pace. Spend 60–90 seconds on the demonstration excerpt, then allow brief pauses on the data and results slides. Use your own words wherever the script does not reflect your experience.
+Rehearse against a timer at your own pace. Use this pacing guide and adjust after a timed rehearsal.
+
+| Window | Slides |
+|---|---|
+| 0:00–1:20 | 1–3, introduction and workflow |
+| 1:20–3:30 | 4, upload and run both cases |
+| 3:30–5:20 | 5–6, model and split |
+| 5:20–7:30 | 7–8, targets and paired comparison |
+| 7:30–9:40 | 9–11, fixes, lessons and failures |
+| 9:40–10:00 | 12, evidence link and close | Use your own words wherever the script does not reflect your experience.
 
 ## 1. Gnasher Group
 
@@ -16,7 +25,7 @@ Here is the pipeline. First I upload a photo and convert it to RGB. The model ne
 
 ## 4. Demonstration
 
-Here I show the actual inference notebook after loading the saved checkpoint. I upload one known-label example and look at the image and output. Then I show the cocker spaniel. Sporting was expected. The saved output led with Non-Sporting at 49.4 percent, so the system abstained. I want the viewer to see an input go through the workflow and watch the difference between a usable prediction and a result that needs review. [Show a 60–90 second excerpt or live demo here.]
+Here I show the actual inference notebook after loading the saved checkpoint. I upload one known-label example and look at the image and output. Then I show the cocker spaniel. Sporting was expected. The saved output led with Non-Sporting at 49.4 percent, so the system abstained. I want the viewer to see an input go through the workflow and watch the difference between a usable prediction and a result that needs review. [Use about two minutes for both uploads and visible predictions, or show a rehearsed excerpt.]
 
 ## 5. How it works
 

@@ -1,6 +1,6 @@
 # Saved V2 run · v2_run04
 
-Saved on October 13, 2026. Run configuration identifies source commit `5402e9f2a5d7ad6ab1eccc5fe373f399417aaf49`, seed 42, Torch 2.11.0+cu130 and Torchvision 0.26.0+cu130. The run configuration and test report reference the same manifest hash. The threshold and report reference the same checkpoint hash. The threshold is 0.50, selected on validation. The public inference notebook checks the checkpoint bytes before loading it.
+Saved on October 13, 2026. Run configuration identifies source commit `5402e9f2a5d7ad6ab1eccc5fe373f399417aaf49`, seed 42, Torch 2.11.0+cu130 and Torchvision 0.26.0+cu130. The run configuration and test report reference the same manifest hash. The threshold and report reference the same checkpoint hash. The recovered manifest, original label table, and threshold bytes each match the corresponding recorded SHA-256. The private checkpoint bytes still need verification at inference time. The threshold is 0.50, selected on validation. The public inference notebook checks the checkpoint bytes before loading it.
 
 - [Paired predictions](test_predictions.csv) and [test report](test_report.json) cover 1,050 rows. From the V2 predictions, 947 top-1 labels and 939 final decisions matched.
 - [Train/validation history](history.csv), [curves](learning_curves.png), and [test decision matrix](confusion_with_uncertain.png) are saved run outputs. Last and best validation top-1 was 91.14%.
